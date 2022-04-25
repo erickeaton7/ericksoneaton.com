@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'personal_portfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',  # 'django.db.backends.sqlite3',
+        'NAME': 'orqaemow',                         # BASE_DIR / 'db.sqlite3',
+        'USER': 'orqaemow',
+        'PASSWORD': 'R2seRP9fXMcHe88Q6qF_d3kAs_5f7Pqz',
+        'HOST': 'isilo.db.elephantsql.com',
+        'PORT': '5432',
     }
 }
 
