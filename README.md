@@ -7,8 +7,7 @@
 ## Technologies Used:
 
 * Django
-* Vue.js
-* PostgreSQL
-* HTML
-* CSS
 * Bootstrap
+* PostgreSQL
+* HTML5
+* CSS3
